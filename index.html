@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BurgerFi | Sunil Kumar S/K</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./products.html">Products</a>
+            <a href="./review.html">Review</a>
+            <a href="./contact.html">Contact</a>
+           
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+ <!-- Login Button -->
+<button class="btn login-btn" id="login-button">Login</button>
+
+<!-- Login Modal -->
+<div class="login-modal" id="login-modal">
+    <div class="login-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <h2>Welcome Back to <span>BurgerFi</span> 🍔</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p class="login-footer">Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+</div>
+
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">  
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (1).png" alt="menu">
+                <div class="content">
+                    <h3>Cart Item 01</h3>
+                    <div class="price">₹665 <span>₹750</span></div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (2).png" alt="menu">
+                <div class="content">
+                    <h3>Cart Item 02</h3>
+                    <div class="price">₹705 <span>₹750</span></div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (3).png" alt="menu">
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">₹580 <span>₹650</span></div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (4).png" alt="menu">
+                <div class="content">
+                    <h3>Cart Item 04</h3>
+                    <div class="price">₹540 <span>₹600</span></div>
+                </div>
+            </div>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </header>
+    <!---------------------------------------------HEADER SECTION -->
+
+    <!---------------------------------------------HOME SECTION -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to BurgerFi</h3>
+            <p>Experience the finest culinary delights crafted with passion and perfection. Our dishes are made with the freshest ingredients to satisfy your taste buds.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+    <!---------------------------------------------HOME SECTION -->
+    
+    <!---------------------------------------------MENU SECTION -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="./image/pngwing.com.png" alt="">
+                    <span class="menu-category">Pizza</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <div class="price">₹2,000</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./image/pngwing.com (2).png" alt="">
+                    <span class="menu-category">Burger</span>
+                    <h3>5 Mini Burgers</h3>
+                    <div class="price">₹999</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./image/pngwing.com (1).png" alt="">
+                    <span class="menu-category">Pizza</span>
+                    <h3>2 Mixed Pizzas</h3>
+                    <div class="price">₹800</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="./image/pngwing.com (3).png" alt="">
+                    <span class="menu-category">Burger</span>
+                    <h3>3 Ultimate Veggie Burger</h3>
+                    <div class="price">₹899</div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------MENU SECTION -->
+
+    <!---------------------------------------------PRODUCTS SECTION -->
+     <section class="products" id="products">
+        <h1 class="heading">Our <span>Specialties</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Mini Burger</span>
+                    <a href="#" class="name">Bacon Burger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (6).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₹250</b>
+                        <span class="amount">110gr / 300 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Cheese Burger</span>
+                    <a href="#" class="name">Cheese Burger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (4).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₹399</b>
+                        <span class="amount">140gr / 2500 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Double Burger</span>
+                    <a href="#" class="name">Double Burger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (5).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">₹499</b>
+                        <span class="amount">440gr / 600 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------------------------------------------PRODUCTS SECTION -->
+        
+    <!---------------------------------------------ABOUT US SECTION -->
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Us</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="./image/pngwing.com (7).png" alt="">
+            </div>
+            <div class="content">
+                <h3>What Makes Us Special?</h3>
+                <div class="paragraph">
+                    <p>At BurgerFi, we believe in delivering an unforgettable dining experience. Our chefs use only the finest ingredients to create dishes that delight your senses.</p>
+                    <p>From our cozy ambiance to our exceptional service, every detail is designed to make your visit memorable.</p>
+                    <p>Join us and discover why we are the heart of culinary excellence.</p>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------ABOUT US SECTION -->
+    
+    <!---------------------------------------------REVIEW SECTION -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/pngwing.com (4).png" alt="quote">
+                <p>BurgerFi is simply amazing! The food is delicious, and the service is top-notch. Highly recommended!</p>
+                <h3>Tanu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (1).png" alt="quote">
+                <p>I had an incredible dining experience here. The ambiance is perfect, and the food is out of this world!</p>
+                <h3>Deepak Baghel</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (4).png" alt="quote">
+                <p>BurgerFi never disappoints. Every dish is a masterpiece, and the staff is incredibly friendly.</p>
+                <h3>Sunil Kumar</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------REVIEW SECTION -->
+
+    <!---------------------------------------------CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <div class="row">
+             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.123456789012!2d77.12345678901234!3d28.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDA3JzI0LjQiTiA3N8KwMDcnMjQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            <form>
+                <h3>Get in Touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                <input type="submit" class="btn" value="Contact Now">
+            </form>
+        </div>
+    </section>
+    <!---------------------------------------------CONTACT SECTION -->
+
+    
+    <!---------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+            <a href="https://x.com/?lang=en" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/mr_sunil_._._/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            
+        </div>
+        <div class="credit">
+            Made by <span>Sunil Kumar</span> 
+        </div>
+    </section>
+    <!---------------------------------------------FOOTER SECTION -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
