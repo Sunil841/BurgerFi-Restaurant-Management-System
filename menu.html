@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Our Menu | BurgerFi</title>
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header class="header">
+  <a href="./index.html" class="logo">
+    <span class="logo-text">Burger<span>Fi</span></span>
+  </a>
+  <nav class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./menu.html" class="active">Menu</a>
+    <a href="./products.html">Products</a>
+    <a href="./review.html">Review</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+  <div class="buttons">
+    <button id="search-btn"><i class="fas fa-search"></i></button>
+    <button id="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+    <button id="menu-btn"><i class="fas fa-bars"></i></button>
+  </div>
+  <div class="search-form">
+    <input type="text" class="search-input" id="search-box" placeholder="Search dishes…" />
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="cart-items-container">
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (1).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 01</h3><div class="price">₹150</div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (2).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 02</h3><div class="price">₹160</div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (3).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 03</h3><div class="price">₹130</div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (4).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 04</h3><div class="price">₹120</div></div>
+    </div>
+    <a href="./products.html" class="btn">Check Out</a>
+  </div>
+</header>
+
+<!-- ══════════ PAGE HERO ══════════ -->
+<section class="page-hero">
+  <div class="hero-content">
+    <h1>Our <span>Menu</span></h1>
+    <div class="breadcrumb"><a href="./index.html">Home</a> &rsaquo; Menu</div>
+  </div>
+</section>
+
+<!-- ══════════ MENU ══════════ -->
+<section class="menu" id="menu">
+  <div class="box-container">
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com.png" alt="6 Mini Pizzas" />
+        <span class="menu-category">Pizza</span>
+        <h3>6 Mini Pizzas</h3>
+        <div class="price">₹100 <span>₹120</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com (2).png" alt="5 Mini Burgers" />
+        <span class="menu-category">Burger</span>
+        <h3>5 Mini Burgers</h3>
+        <div class="price">₹100 <span>₹105</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com (1).png" alt="2 Mixed Pizzas" />
+        <span class="menu-category">Pizza</span>
+        <h3>2 Mixed Pizzas</h3>
+        <div class="price">₹149 <span>₹159</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com (3).png" alt="Meatball Burgers" />
+        <span class="menu-category">Burger</span>
+        <h3>3 Meatball Burgers</h3>
+        <div class="price">₹179 <span>₹199</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com (4).png" alt="Chicken Burger" />
+        <span class="menu-category">Burger</span>
+        <h3>Crispy Chicken Burger</h3>
+        <div class="price">₹199 <span>₹229</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="./image/pngwing.com (5).png" alt="Double Burger" />
+        <span class="menu-category">Special</span>
+        <h3>The Double Stack</h3>
+        <div class="price">₹249 <span>₹299</span></div>
+      </div>
+      <div class="box-bottom"><a href="#" class="btn">Add to Cart</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="brand">Burger<span>Fi</span></div>
+  <div class="search">
+    <input type="text" class="search-input" placeholder="Search…" />
+    <button class="btn btn-primary">Search</button>
+  </div>
+  <div class="share">
+    <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+    <a href="https://x.com/" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/mr_sunil_._._/" class="fab fa-instagram"></a>
+    <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+  </div>
+  <div class="links">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./menu.html">Menu</a>
+    <a href="./products.html">Products</a>
+    <a href="./review.html">Review</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+  <div class="credit">Made by <span>Sunil Kumar S/K</span></div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

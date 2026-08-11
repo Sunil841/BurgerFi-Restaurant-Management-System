@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome 6 — solid + brands both included -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Reviews | BurgerFi</title>
+  </head>
+  <body>
+    <!-- ══════════ HEADER ══════════ -->
+    <header class="header">
+      <a href="./index.html" class="logo">
+        <span class="logo-text">Burger<span>Fi</span></span>
+      </a>
+      <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./products.html">Products</a>
+        <a href="./review.html" class="active">Review</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button id="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+        <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="Search dishes…"
+        />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="./image/pngwing.com (1).png" alt="cart item" />
+          <div class="content">
+            <h3>Cart Item 01</h3>
+            <div class="price">₹665 <span>₹750</span></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="./image/pngwing.com (2).png" alt="cart item" />
+          <div class="content">
+            <h3>Cart Item 02</h3>
+            <div class="price">₹705 <span>₹750</span></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="./image/pngwing.com (3).png" alt="cart item" />
+          <div class="content">
+            <h3>Cart Item 03</h3>
+            <div class="price">₹580 <span>₹650</span></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fa-solid fa-xmark"></i>
+          <img src="./image/pngwing.com (4).png" alt="cart item" />
+          <div class="content">
+            <h3>Cart Item 04</h3>
+            <div class="price">₹540 <span>₹600</span></div>
+          </div>
+        </div>
+        <a href="./products.html" class="btn">Check Out</a>
+      </div>
+    </header>
+
+    <!-- ══════════ PAGE HERO ══════════ -->
+    <section class="page-hero">
+      <div class="hero-content">
+        <h1>Customer <span>Reviews</span></h1>
+        <div class="breadcrumb">
+          <a href="./index.html">Home</a> &rsaquo; Reviews
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ REVIEWS ══════════ -->
+    <section class="review" id="review">
+      <div class="box-container">
+        <div class="box">
+          <p>
+            "BurgerFi is simply amazing! The food is delicious, and the service
+            is top-notch. I keep coming back every week. Highly recommended to
+            everyone!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com (9).png" alt="Rohan" />
+            <div class="name-wrap">
+              <h3>Rohan</h3>
+              <span class="role">Food Critic</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>
+            "I had an incredible dining experience here. The ambiance is
+            perfect, and the food is out of this world. The double burger is my
+            absolute favourite!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com (10).png" alt="Tajinder" />
+            <div class="name-wrap">
+              <h3>Tajinder</h3>
+              <span class="role">Regular Customer</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>
+            "BurgerFi never disappoints. Every dish is a masterpiece, and the
+            staff is incredibly friendly. The cheese burger is the best I've
+            ever tasted!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com (11).png" alt="Anusha" />
+            <div class="name-wrap">
+              <h3>Anusha</h3>
+              <span class="role">Food Blogger</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>
+            "Absolutely love this place! Fresh ingredients, generous portions,
+            and the prices are very fair. The veggie burger surprised me —
+            packed with flavour!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com.png" alt="Tanu" />
+            <div class="name-wrap">
+              <h3>Tanu</h3>
+              <span class="role">Loyal Customer</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>
+            "Amazing burgers! I ordered the mini burger combo and it was
+            perfect. Great for sharing. The service was super quick too. Will
+            definitely be back!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com.png" alt="Deepak" />
+            <div class="name-wrap">
+              <h3>Deepak Baghel</h3>
+              <span class="role">Foodie</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p>
+            "Top-tier burger joint. Clean, cozy, and the aroma when you walk in
+            is incredible. The staff remembered my order from last time — that's
+            real hospitality!"
+          </p>
+          <div class="user-info">
+            <img src="./image/pngwing.com.png" alt="Sunil Kumar" />
+            <div class="name-wrap">
+              <h3>Sunil Kumar</h3>
+              <span class="role">Regular</span>
+            </div>
+          </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Strip -->
+    <section
+      style="text-align: center; padding: 5rem 8%; background: var(--dark)"
+    >
+      <h2
+        style="
+          font-family: &quot;Bebas Neue&quot;, cursive;
+          font-size: 4.5rem;
+          color: #fff;
+          letter-spacing: 2px;
+        "
+      >
+        Had a Great Experience?
+      </h2>
+      <p
+        style="
+          font-size: 1.7rem;
+          color: rgba(255, 255, 255, 0.6);
+          margin: 1rem 0 2.5rem;
+        "
+      >
+        We'd love to hear your story. Share your BurgerFi moment!
+      </p>
+      <a href="./contact.html" class="btn">Leave a Review</a>
+    </section>
+
+    <!-- ══════════ FOOTER ══════════ -->
+    <footer class="footer">
+      <div class="brand">Burger<span>Fi</span></div>
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search…" />
+        <button class="btn btn-primary">Search</button>
+      </div>
+      <div class="share">
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/mr_sunil_._._/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/feed/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <div class="links">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./products.html">Products</a>
+        <a href="./review.html">Review</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <div class="credit">Made by <span>Sunil Kumar S/K</span></div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

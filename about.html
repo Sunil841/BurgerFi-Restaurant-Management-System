@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>About | BurgerFi</title>
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header class="header">
+  <a href="./index.html" class="logo">
+    <span class="logo-text">Burger<span>Fi</span></span>
+  </a>
+  <nav class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./about.html" class="active">About</a>
+    <a href="./menu.html">Menu</a>
+    <a href="./products.html">Products</a>
+    <a href="./review.html">Review</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+  <div class="buttons">
+    <button id="search-btn"><i class="fas fa-search"></i></button>
+    <button id="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+    <button id="menu-btn"><i class="fas fa-bars"></i></button>
+  </div>
+  <div class="search-form">
+    <input type="text" class="search-input" id="search-box" placeholder="Search dishes…" />
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="cart-items-container">
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (1).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 01</h3><div class="price">₹665 <span>₹750</span></div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (2).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 02</h3><div class="price">₹705 <span>₹750</span></div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (3).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 03</h3><div class="price">₹580 <span>₹650</span></div></div>
+    </div>
+    <div class="cart-item">
+      <i class="fas fa-times"></i>
+      <img src="./image/pngwing.com (4).png" alt="cart item" />
+      <div class="content"><h3>Cart Item 04</h3><div class="price">₹540 <span>₹600</span></div></div>
+    </div>
+    <a href="./products.html" class="btn">Check Out</a>
+  </div>
+</header>
+
+<!-- ══════════ PAGE HERO ══════════ -->
+<section class="page-hero">
+  <div class="hero-content">
+    <h1>About <span>Us</span></h1>
+    <div class="breadcrumb"><a href="./index.html">Home</a> &rsaquo; About</div>
+  </div>
+</section>
+
+<!-- ══════════ ABOUT ══════════ -->
+<section class="about" id="about">
+  <div class="row">
+    <div class="image">
+      <img src="./image/pngwing.com (7).png" alt="About BurgerFi" />
+    </div>
+    <div class="content">
+      <h3>What is the Secret <span>Recipe</span> of Our Burgers?</h3>
+      <p>At BurgerFi, every burger tells a story. We source the freshest, locally-grown ingredients and combine them with our signature sauces — a recipe perfected over years of culinary experimentation.</p>
+      <p>Our master chefs bring decades of expertise to the grill, ensuring every patty is cooked to perfection — juicy, flavourful, and absolutely irresistible.</p>
+      <p>We believe great food is made with great love. That philosophy drives everything we do, from our handcrafted buns to our house-made condiments.</p>
+
+      <div style="display:flex;flex-wrap:wrap;margin-top:1.5rem;">
+        <span class="about-badge"><i class="fas fa-leaf"></i> 100% Fresh</span>
+        <span class="about-badge"><i class="fas fa-fire-alt"></i> Flame Grilled</span>
+        <span class="about-badge"><i class="fas fa-heart"></i> Made with Love</span>
+        <span class="about-badge"><i class="fas fa-award"></i> Award Winning</span>
+      </div>
+
+      <a href="./menu.html" class="btn" style="margin-top:2.5rem;">Explore Our Menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ STATS STRIP ══════════ -->
+<section style="padding:4rem 8%;background:var(--dark);">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:2rem;text-align:center;">
+    <div>
+      <div style="font-family:'Bebas Neue',cursive;font-size:5.5rem;color:var(--accent);">12+</div>
+      <div style="font-size:1.6rem;color:rgba(255,255,255,0.7);font-weight:600;">Years of Experience</div>
+    </div>
+    <div>
+      <div style="font-family:'Bebas Neue',cursive;font-size:5.5rem;color:var(--accent);">50K+</div>
+      <div style="font-size:1.6rem;color:rgba(255,255,255,0.7);font-weight:600;">Happy Customers</div>
+    </div>
+    <div>
+      <div style="font-family:'Bebas Neue',cursive;font-size:5.5rem;color:var(--accent);">30+</div>
+      <div style="font-size:1.6rem;color:rgba(255,255,255,0.7);font-weight:600;">Menu Items</div>
+    </div>
+    <div>
+      <div style="font-family:'Bebas Neue',cursive;font-size:5.5rem;color:var(--accent);">4.8★</div>
+      <div style="font-size:1.6rem;color:rgba(255,255,255,0.7);font-weight:600;">Average Rating</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="brand">Burger<span>Fi</span></div>
+  <div class="search">
+    <input type="text" class="search-input" placeholder="Search…" />
+    <button class="btn btn-primary">Search</button>
+  </div>
+  <div class="share">
+    <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
+    <a href="https://x.com/" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/mr_sunil_._._/" class="fab fa-instagram"></a>
+    <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+  </div>
+  <div class="links">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./menu.html">Menu</a>
+    <a href="./products.html">Products</a>
+    <a href="./review.html">Review</a>
+    <a href="./contact.html">Contact</a>
+  </div>
+  <div class="credit">Made by <span>Sunil Kumar S/K</span></div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
